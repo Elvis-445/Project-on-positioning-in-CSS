@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project on Positioning in CSS</title>
+    <style>
+        div{
+            border: 5px solid blue;
+            background-color: bisque;
+        }
+        #sticky{
+            border: 5px solid blanchedalmond;
+            position: sticky;
+            top: 1px;
+            left: 20px;
+            width: 100px;
+            background-color: aquamarine;
+        }
+        #fixed{
+            border: 5px solid greenyellow;
+            position: fixed;
+            top: 0px;
+            right: 1px;
+            width: 100px;
+            background-color: aqua;
+        }
+        #relative{
+            border: 5px solid chartreuse;
+            position: relative;
+            left: 100px;
+            width: 650px;
+            background-color: aliceblue;
+        }
+        #absolute{
+            border: 5px solid rgb(255, 0, 0);
+            position: absolute;
+            left: 0px;
+            width: 650px;
+            background-color: blanchedalmond;      
+        }
+    </style>
+</head>
+<body>
+    <h2>Project on Positioning in CSS</h2>
+    <div>
+        <h4>No Positioning: This position in CSS Has no positioning meaning it does not move no matter the scrolling.</h4>
+    </div>
+    <div id="sticky">
+        <h4>With Sticky Positioning: This means the element will scroll with the page until it reaches 20px from the top of the viewport, where it will then stay fixed</h4>
+    </div>
+    <div id="relative">
+        <h4>With Relative Positioning: Relative positioning in CSS allows you to adjust an element’s position relative to its normal position in the document flow.</h4>
+        <div id="absolute">
+            <h4>With absolute Positioning: Absolute positioning in CSS allows you to place an element at a specific location within its containing element. When you set an element’s position property to absolute, it is removed from the normal document flow and positioned relative to its nearest positioned ancestor (an element with a position other than static).</h4>
+        </div>
+    </div>
+    <div id="fixed">
+        <h4>With fixed Positioning: In CSS, fixed positioning is achieved by setting the position property to fixed. This positions the element relative to the viewport, meaning it stays in the same place even when the page is scrolled.</h4>
+    </div>
+<h4><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></h4
+</body>
+</html>
